@@ -36,7 +36,6 @@ p{
 }
 body{
     width: 99%;
-    overflow: hidden;
     min-height: 700px;
 }
 button.normal{
