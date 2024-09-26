@@ -14,9 +14,9 @@ close.addEventListener("click",()=>{
         mBar.style.right="-3000px"
     }
 })
-mBar.addEventListener("click",()=>{
-    if (turn){
-        mBar.style.right="-4000px"
-    }
-})
+// mBar.addEventListener("click",()=>{
+//     if (turn){
+//         mBar.style.right="-3001px"
+//     }
+// })
 
