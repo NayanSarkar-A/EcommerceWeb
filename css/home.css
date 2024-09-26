@@ -36,6 +36,7 @@ p{
 }
 body{
     width: 99%;
+    overflow: hidden;
     min-height: 700px;
 }
 button.normal{
@@ -611,5 +612,9 @@ footer h4 ,p{
         left: 57.8vw;
         top: 60px;
     }  
-    
+    @media (max-width:470px) {
+        .gmail{
+            display: none;
+        }
+    }
 }
