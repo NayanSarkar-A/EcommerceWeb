@@ -200,7 +200,7 @@ button.normal{
     text-align: center;
 }
 .product{
-    width: 20%;
+    width: 22%;
     min-width: 10px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
@@ -504,7 +504,7 @@ footer h4 ,p{
         position:fixed;
         top: 3px;
         right: -3000px;
-        height: 90vh;
+        height: 100vh;
         width: 30%;
         background: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
@@ -715,5 +715,133 @@ footer h4 ,p{
             color: #1a1a1a;
             font-size: 20px;
         }
+    }
+}
+/* .................................................. */
+/* shop page css   shop page css   shop page css     shop page css   shop page css           shop page css*/ 
+#pege-header{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding: 15px;
+}
+#pege-header p,
+#pege-header h2 {
+    color:#fff ;
+}
+.pagination{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px ;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+.pagination a i{
+    font-size: 15px;
+    font-weight: 600;
+}
+/* single product page css         single product page css       single product page       single product page     single product page  */
+.product-details .Single-pro-img{
+    width: 39.1%;
+    margin-right: 50px;
+}
+.product-details{
+    margin: 10px 60px;
+    display: flex;
+}
+.samll-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+/* #MainImg{
+    height: 65vh;
+    width: 35vw;
+} */
+.single-pro-derails{
+    width: 50%;
+    padding-top: 35px;
+}
+.single-pro-derails h4{
+    padding: 30px 0 20px 0;
+    font-size: 30px;
+}
+.single-pro-derails  h2{
+    font-size: 22px;
+}  
+.single-pro-derails  select{
+    display: block;
+    padding: 5px 10px ;
+    margin-bottom: 12px;
+}
+.single-pro-derails input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: center;
+}
+.single-pro-derails button{
+    background-color: #088178;
+    color: #fff;
+}
+.single-pro-derails input:focus{
+    outline: none;
+    border: 1px solid #088178;
+}
+.single-pro-derails select:focus{
+    border: 1px solid #088178;
+    outline: none;
+}
+.single-pro-derails span{
+    line-height: 25px;
+    font-size: 20px;
+    word-spacing: 3px;
+    color: #606063;
+}
+#top{
+    margin-top: 15px;
+}
+/* single product page Responsive    single product page Responsive    single product page Responsive */
+@media (max-width:477px) {
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .product-details .Single-pro-img{
+        width: 100%;
+    }
+    .single-pro-derails{
+        width: 100%;
+        padding-top: 15px;
+        margin-left: 20px;
+    }
+    .single-pro-derails h4 {
+        padding: 20px 0 10px 0;
+        font-size: 24px;
+    }
+    .single-pro-derails  h2 {
+        font-size: 17px;
+    }
+    .single-pro-derails span {
+        line-height: 20px;
+        font-size: 17px;
+        word-spacing: 2px;
+        color: #606063;
+        text-align: center;
     }
 }
